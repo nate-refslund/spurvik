@@ -11,7 +11,7 @@
   "plugins": [
     {
       "name": "spurvik",
-      "source": "https://github.com/nate-refslund/spurvik/tree/main/plugins/spurvik",
+      "source": "https://github.com/spurvik/spurvik/tree/main/plugins/spurvik",
       "version": "0.1.0",
       "description": "Scan repos for unwrapped LLM calls & raw prompt logs (/spurvik:check), add 2-line EU AI Act Art. 50, 12 & 14 controls (/spurvik:wrap), and generate DPO evidence packs (/spurvik:dpo-pack)."
     }

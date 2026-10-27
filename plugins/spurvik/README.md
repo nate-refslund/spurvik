@@ -12,7 +12,7 @@ Built in Denmark by **EyeTea Solutions ApS** (CVR 37093378 · [https://spurvik.c
    ```bash
    /plugin marketplace add https://spurvik.com/.claude-plugin/marketplace.json
    ```
-   *(Or via GitHub: `/plugin marketplace add nate-refslund/spurvik`)*
+   *(Or via GitHub: `/plugin marketplace add spurvik/spurvik`)*
 
 2. Install the `spurvik` plugin:
    ```bash

@@ -24,7 +24,7 @@ Runtime controls for AI builders and engineering teams that support **EU AI Act 
 
 ### 1. Claude Code Plugin
 ```bash
-/plugin marketplace add nate-refslund/spurvik
+/plugin marketplace add spurvik/spurvik
 /plugin install spurvik@spurvik-marketplace
 ```
 
