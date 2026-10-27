@@ -1,0 +1,12 @@
+{
+  "name": "spurvik",
+  "displayName": "Spurvik EU AI Act Guardrails",
+  "version": "0.1.0",
+  "description": "Scan repos for unwrapped LLM calls and raw prompt logs, wrap AI calls with EU AI Act Art. 50, 12 & 14 controls in 2 lines, and generate DPO evidence briefs.",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "Scan this repository for unwrapped LLM calls and GDPR/EU AI Act gaps",
+    "Wrap our OpenAI or Anthropic calls with Spurvik Art. 50, 12, and 14 controls",
+    "Generate a DPO technical evidence summary for our AI features"
+  ]
+}

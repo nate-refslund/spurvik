@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "spurvik-mcp": {
+      "command": "npx",
+      "args": ["-y", "@spurvik/mcp-server"],
+      "env": {
+        "SPURVIK_REGION": "eu-central-1"
+      }
+    }
+  }
+}

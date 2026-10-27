@@ -1,0 +1,28 @@
+{
+  "name": "@spurvik/mcp-server",
+  "version": "1.0.0",
+  "description": "Official Spurvik MCP Server — EU AI Act Art. 50 Transparency, Art. 12 Keyed-HMAC & Ed25519 Receipts, Art. 14 System-One Pre-Flight Routing, and Annex IV / prEN 18286 QMS Readiness for Claude Code, Cursor, and MCP Agents",
+  "type": "module",
+  "main": "./src/index.ts",
+  "bin": {
+    "spurvik-mcp-server": "./src/index.ts"
+  },
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "test": "bun run src/index.ts --self-test"
+  },
+  "keywords": [
+    "spurvik",
+    "mcp",
+    "model-context-protocol",
+    "eu-ai-act",
+    "article-50",
+    "article-12",
+    "article-14",
+    "ed25519",
+    "pren-18286"
+  ],
+  "author": "EyeTea Solutions ApS <hello@spurvik.com> (CVR: 37093378)",
+  "repository": "https://github.com/nate-refslund/spurvik",
+  "license": "Apache-2.0"
+}

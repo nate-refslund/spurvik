@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node -e 'const fs=require(\"fs\"); try { const input=JSON.parse(fs.readFileSync(0,\"utf8\")); const p=input?.tool_input?.file_path||input?.tool_input?.path||\"\"; if(/\\.(ts|tsx|js|jsx|py)$/.test(p)&&fs.existsSync(p)){ const c=fs.readFileSync(p,\"utf8\"); if(/(new OpenAI|new Anthropic|openai\\.chat| openai\\.responses|anthropic\\.messages)/.test(c)&&!c.includes(\"spurvik\")){ console.log(\"[Spurvik Hint] Unwrapped LLM call detected in \"+p+\". Run /spurvik:wrap to add EU AI Act Art. 50, 12 & 14 runtime controls.\"); } } } catch {}'"
+          }
+        ]
+      }
+    ]
+  }
+}

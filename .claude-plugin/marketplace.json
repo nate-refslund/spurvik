@@ -1,0 +1,19 @@
+{
+  "name": "spurvik-marketplace",
+  "owner": {
+    "name": "EyeTea Solutions ApS (Spurvik)",
+    "email": "hello@spurvik.com",
+    "url": "https://spurvik.com"
+  },
+  "metadata": {
+    "description": "Official Claude Code plugin marketplace for Spurvik — runtime controls that support EU AI Act Art. 50 transparency notices and, for high-risk AI systems, Art. 12 pseudonymised HMAC-SHA256 event logging and Art. 14 System-One human-oversight gates."
+  },
+  "plugins": [
+    {
+      "name": "spurvik",
+      "source": "https://github.com/nate-refslund/spurvik/tree/main/plugins/spurvik",
+      "version": "0.1.0",
+      "description": "Scan repos for unwrapped LLM calls & raw prompt logs (/spurvik:check), add 2-line EU AI Act Art. 50, 12 & 14 controls (/spurvik:wrap), and generate DPO evidence packs (/spurvik:dpo-pack)."
+    }
+  ]
+}

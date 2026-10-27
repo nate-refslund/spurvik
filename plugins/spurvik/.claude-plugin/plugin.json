@@ -1,0 +1,24 @@
+{
+  "name": "spurvik",
+  "version": "0.1.0",
+  "description": "Runtime controls supporting EU AI Act Art. 50 AI notices, Art. 12 pseudonymised HMAC-SHA256 event logging (no raw prompt text persisted), and Art. 14 System-One human-oversight gates.",
+  "author": {
+    "name": "EyeTea Solutions ApS",
+    "email": "hello@spurvik.com",
+    "url": "https://spurvik.com"
+  },
+  "homepage": "https://spurvik.com",
+  "repository": "https://github.com/nate-refslund/spurvik",
+  "license": "MIT",
+  "keywords": [
+    "eu-ai-act",
+    "gdpr",
+    "compliance",
+    "article-50",
+    "article-12",
+    "article-14",
+    "hmac",
+    "ai-governance",
+    "spurvik"
+  ]
+}
